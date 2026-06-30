@@ -1,18 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <group
-        android:pivotX="54"
-        android:pivotY="54"
-        android:rotation="-45">
-        <path
-            android:fillColor="#FFFFFF"
-            android:pathData="M32,46 L66,46 L66,62 L32,62 Z" />
-        <path
-            android:fillColor="#FFFFFF"
-            android:pathData="M66,36 L86,54 L66,72 Z" />
-    </group>
+    
+    <!-- Browser Window Outline -->
+    <path
+        android:strokeColor="#526475"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M28,42 h28 a4,4 0 0 1 4,4 v24 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-24 a4,4 0 0 1 4,-4 z" />
+    
+    <!-- Browser Header Dots -->
+    <path
+        android:fillColor="#526475"
+        android:pathData="M29,46 h2 v2 h-2 z M34,46 h2 v2 h-2 z M39,46 h2 v2 h-2 z" />
+
+    <!-- Minimalistic Wall Blocks -->
+    <path
+        android:fillColor="#384754"
+        android:pathData="M56,54 h22 v6 h-22 z M53,61 h11 v6 h-11 z M66,61 h13 v6 h-13 z M56,68 h22 v6 h-22 z" />
+
+    <!-- Padlock Body -->
+    <path
+        android:fillColor="#526475"
+        android:pathData="M62,62 h10 a2,2 0 0 1 2,2 v6 a2,2 0 0 1 -2,2 h-10 a2,2 0 0 1 -2,-2 v-6 a2,2 0 0 1 2,-2 z" />
+    
+    <!-- Padlock Shackle (Locked) -->
+    <path
+        android:strokeColor="#526475"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M64,62 v-2 a3,3 0 0 1 6,0 v2" />
+
+    <!-- Glowing Skip Arrow (The 'Wallskip' Action) -->
+    <path
+        android:strokeColor="#46D3C9"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,60 Q48,60 54,48 T76,36" />
+    
+    <!-- Arrow Head -->
+    <path
+        android:fillColor="#46D3C9"
+        android:strokeColor="#46D3C9"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M68,34 L78,35 L74,43 Z" />
 </vector>
